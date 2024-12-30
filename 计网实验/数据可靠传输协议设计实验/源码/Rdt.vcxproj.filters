@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{97fe3dc4-564f-4390-acde-d9550ae78135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input output">
+      <UniqueIdentifier>{e7a6177b-74ee-4832-8c90-362058b32e46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RDTs">
+      <UniqueIdentifier>{4e0fbe26-3440-4884-b659-f8946b0e6b95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RDTs\GBN">
+      <UniqueIdentifier>{7e49fd1f-b677-45d3-a4d6-6b85e33843a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RDTs\SR">
+      <UniqueIdentifier>{ef92493d-6528-4063-89b5-7fed1dfa31d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RDTs\TCP">
+      <UniqueIdentifier>{e4de1ef7-f1af-424d-93b6-71a6330559c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RDTs\StopWait">
+      <UniqueIdentifier>{3a69b503-5076-4788-a940-2ec91262577b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Global.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GBNReceiver.h">
+      <Filter>RDTs\GBN</Filter>
+    </ClInclude>
+    <ClInclude Include="GBNSender.h">
+      <Filter>RDTs\GBN</Filter>
+    </ClInclude>
+    <ClInclude Include="SRReceiver.h">
+      <Filter>RDTs\SR</Filter>
+    </ClInclude>
+    <ClInclude Include="SRSender.h">
+      <Filter>RDTs\SR</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPReceiver.h">
+      <Filter>RDTs\TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPSender.h">
+      <Filter>RDTs\TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="StopWaitRdtReceiver.h">
+      <Filter>RDTs\StopWait</Filter>
+    </ClInclude>
+    <ClInclude Include="StopWaitRdtSender.h">
+      <Filter>RDTs\StopWait</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GBNSender.cpp">
+      <Filter>RDTs\GBN</Filter>
+    </ClCompile>
+    <ClCompile Include="GBNReceiver.cpp">
+      <Filter>RDTs\GBN</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPReceiver.cpp">
+      <Filter>RDTs\TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPSender.cpp">
+      <Filter>RDTs\TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="SRReceiver.cpp">
+      <Filter>RDTs\SR</Filter>
+    </ClCompile>
+    <ClCompile Include="SRSender.cpp">
+      <Filter>RDTs\SR</Filter>
+    </ClCompile>
+    <ClCompile Include="StopWaitRdtReceiver.cpp">
+      <Filter>RDTs\StopWait</Filter>
+    </ClCompile>
+    <ClCompile Include="StopWaitRdtSender.cpp">
+      <Filter>RDTs\StopWait</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="netsimlib.lib">
+      <Filter>lib</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input.txt">
+      <Filter>input output</Filter>
+    </Text>
+    <Text Include="output.txt">
+      <Filter>input output</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

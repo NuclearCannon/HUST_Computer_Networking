@@ -1,0 +1,10 @@
+Router>enable
+Router#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#access-list 101 deny ip host 192.168.1.2 any
+Router(config)#access-list 101 deny ip any host 192.168.1.2
+Router(config)#access-list 101 permit ip any any
+Router(config)#int Fa0/0
+Router(config-if)#ip access-group 101 in
+Router(config-if)#ip access-group 101 out
+Router(config-if)#
